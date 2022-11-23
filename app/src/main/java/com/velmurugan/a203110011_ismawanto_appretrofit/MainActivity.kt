@@ -7,7 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.velmurugan.a203110011_ismawanto_appretrofit.databinding.ActivityMainBinding
 
-// TODO 1 : untuk bagian Class View Adapter
+// TODO 1 : untuk bagian Class View
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
     private lateinit var binding: ActivityMainBinding
