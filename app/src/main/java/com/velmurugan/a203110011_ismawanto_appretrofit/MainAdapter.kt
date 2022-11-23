@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.velmurugan.a203110011_ismawanto_appretrofit.databinding.AdapterMovieBinding
 
-// TODO 6: Untuk class Data Adapter
+// TODO 3: Untuk class Data Adapter
 class MainAdapter: RecyclerView.Adapter<MainViewHolder>() {
 
     var movies = mutableListOf<Movie>()
@@ -22,7 +22,7 @@ class MainAdapter: RecyclerView.Adapter<MainViewHolder>() {
         val binding = AdapterMovieBinding.inflate(inflater, parent, false)
         return MainViewHolder(binding)
     }
-// TODO 2 : Untuk menampilkan laod url gambar
+// TODO 8 : Untuk menampilkan laod url gambar
     override fun onBindViewHolder(holder: MainViewHolder, position: Int) {
         val movie = movies[position]
        holder.binding.name.text = movie.name

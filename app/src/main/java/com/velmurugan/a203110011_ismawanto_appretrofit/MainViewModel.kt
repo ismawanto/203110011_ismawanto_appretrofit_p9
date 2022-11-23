@@ -6,7 +6,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-// TODO 3 : untuk parsing data json hasil
+// TODO 7 : untuk parsing data json hasil
 class MainViewModel constructor(private val repository: MainRepository)  : ViewModel() {
 
     val movieList = MutableLiveData<List<Movie>>()
@@ -14,7 +14,7 @@ class MainViewModel constructor(private val repository: MainRepository)  : ViewM
 
     fun getAllMovies() {
 
-        // TODO 4 : untuk menampilkan gambar
+        // TODO 9 : untuk menampilkan gambar
         val response = repository.getAllMovies()
         response.enqueue(object : Callback<List<Movie>> {
             override fun onResponse(call: Call<List<Movie>>, response: Response<List<Movie>>) {

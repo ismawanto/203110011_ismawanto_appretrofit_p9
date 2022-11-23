@@ -5,7 +5,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
-// TODO 1 : Bagian web servis
+// TODO 6 : Bagian web servis
 interface RetrofitService {
 
     @GET("movielist.json")

@@ -2,6 +2,7 @@ package com.velmurugan.a203110011_ismawanto_appretrofit
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+// TODO 4: Untuk class view model
 
 class MyViewModelFactory constructor(private val repository: MainRepository): ViewModelProvider.Factory {
 
