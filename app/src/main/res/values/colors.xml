@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    // Pada bagian inin digunanakan untuk membuat warna pada tampilan
     <color name="purple_200">#FAE954</color>
     <color name="purple_500">#F1D837</color>
     <color name="purple_700">#21B352</color>
